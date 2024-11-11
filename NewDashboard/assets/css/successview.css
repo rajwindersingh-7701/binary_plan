@@ -1,0 +1,97 @@
+body {
+  
+    position: relative;
+  background: url(all_images/login-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+    font-family: 'Roboto', sans-serif;
+    background-image: url("/uploads/ins-wallet.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.card {
+    background-color: #fff !important;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+a.logo.logo-admin img {
+    max-width: 150px;
+    margin: 0 auto;
+}
+h5.mainboxes {
+    line-height: 26px;
+    color: #000;
+}
+
+.welcome-txt{
+    color: #000;
+    font-size: 20px;
+    margin: 10px 0;
+}
+.card-body{
+    padding: 10px;
+}
+.page-title{
+    color: green;
+    font-size: 25px;
+}
+
+@media (max-width:576px) {
+    body{
+        padding: 70px 0;
+    }
+}
+@media (max-width:380px) {
+    .card{
+        padding: 10px 0 ;
+    }
+    
+}
+ .button-three {
+  background: linear-gradient(45deg, #FF512F, #F09819);
+    width: 100%;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    border: 1px solid #f67e21;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+}
+a:hover {
+    color: #fff;
+}
+/*.button-three:hover{
+   background:#fff;
+   box-shadow:0px 2px 10px 5px #97B1BF;
+   color:#000;
+}
+
+.button-three:after {
+    content: "";
+    background: #8041F2;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+} */
+
+/* .button-three:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+} */
+  
